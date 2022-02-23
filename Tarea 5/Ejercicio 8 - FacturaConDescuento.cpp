@@ -23,7 +23,6 @@ int main()
 	
 	cout << "Total a pagar es: "<<total<<endl;
 
-	
 	return 0;
 	
 }
