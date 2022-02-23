@@ -13,6 +13,5 @@ int main ()
 	
 	cout << "Entero modificado:  " <<numeroEntero;
 
-
     return 0;
 }

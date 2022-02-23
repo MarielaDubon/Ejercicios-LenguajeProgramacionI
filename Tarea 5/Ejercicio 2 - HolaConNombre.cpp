@@ -11,6 +11,6 @@ int main(int argc, char** argv) {
 	
 	cout << "Su nombre es:  "<<nombre<<endl;
 	
-	
+
 	return 0;
 }
