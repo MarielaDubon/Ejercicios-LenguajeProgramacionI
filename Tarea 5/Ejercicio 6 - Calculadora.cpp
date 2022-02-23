@@ -26,6 +26,5 @@ int main() {
 	cout<< "La multiplicacion de a + b es: " <<TotalMulti<<endl;
 	cout<< "La division de a + b es: " <<TotalDivision<<endl;
 	
-	
 	return 0;
 }
