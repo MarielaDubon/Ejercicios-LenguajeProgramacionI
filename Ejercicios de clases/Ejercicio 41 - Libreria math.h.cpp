@@ -22,4 +22,6 @@ int main()
     cout << "tangente: " << tangente << endl;
 
     return 0;
+
+    
 }
