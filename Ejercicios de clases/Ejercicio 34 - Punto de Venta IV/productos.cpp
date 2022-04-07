@@ -28,9 +28,16 @@ void productos(int opcion)
                agregarProducto("Expreso, 1, 30")
                break;
            default:
+           {
+               cout << "opcion no valida";
+               return;
                break;
            }
+           }
  
+        cout << endl;
+        cout << "Producto agregado" <<endl <<endl;
+        system("pasuse");
         break;
     }
     case 2:

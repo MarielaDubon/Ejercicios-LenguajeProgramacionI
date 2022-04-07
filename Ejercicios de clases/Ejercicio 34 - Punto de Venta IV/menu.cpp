@@ -3,7 +3,7 @@
 using namespace std;
 
 extern void productos(int opcion);
-
+extern void imprimirFactura();
 void menu()
 {
     int opcion = 0;
@@ -31,8 +31,13 @@ void menu()
         {
             break;
         }
+        if (opcion == 4)
+        {
+           imprimirFactura();
+        }else {
+            productos(opcion);
+        }
 
-        productos(opcion);
 
     }
 }
